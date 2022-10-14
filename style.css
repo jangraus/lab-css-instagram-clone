@@ -1,0 +1,72 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url("images/bgtile.png");
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+}
+
+.whole{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+
+
+.main-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:900px;
+}
+
+.right-content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.upper-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content:center;
+  width: 500px;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 400px;
+  padding: 50px;
+}
+
+.main-paragraph {
+  display: flex;
+  flex-direction: column;
+}
+
+.lower-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+
+.footer {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+}
